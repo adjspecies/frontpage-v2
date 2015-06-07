@@ -1,0 +1,33 @@
+header {
+    height: 288px;
+    background: url('as-stripes.png');
+    margin-bottom: 1em;
+}
+
+header h1, header h2 {
+    display: none;
+}
+
+header .header-image {
+    background: url('as-header.png');
+    width: 1000px;
+    height: 288px;
+    margin: 0 auto;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.attribution {
+    vertical-align: top;
+    height: 60px;
+    padding: 5px;
+}
+
+.attribution img {
+    position: relative;
+    float: left;
+    margin-right: 5px;
+}
+
