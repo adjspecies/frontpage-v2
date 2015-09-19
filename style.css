@@ -1,11 +1,15 @@
-header {
-    height: 288px;
-    background: url('as-stripes.png');
-    margin-bottom: 1em;
-}
-
 header h1, header h2 {
     display: none;
+}
+
+.header {
+    height: 288px;
+    background: url('as-stripes.png');
+    margin: 0 0 1em 0;
+}
+
+header .navbar {
+    margin-bottom: 0;
 }
 
 header .header-image {
@@ -31,3 +35,6 @@ header .header-image {
     margin-right: 5px;
 }
 
+.jumbotron img {
+    height: 150px;
+}
