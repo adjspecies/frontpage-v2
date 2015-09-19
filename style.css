@@ -4,8 +4,8 @@ header h1, header h2 {
 
 .header {
     height: 288px;
-    background: url('as-stripes.png');
-    margin: 0 0 1em 0;
+    background-image: url('as-stripes.png');
+    margin: 0;
 }
 
 header .navbar {
@@ -13,10 +13,21 @@ header .navbar {
 }
 
 header .header-image {
-    background: url('as-header.png');
+    background-image: url('as-header.png');
     width: 1000px;
     height: 288px;
     margin: 0 auto;
+}
+
+@media screen and (max-width:  1000px) {
+    header .header-image {
+        background-image: url('as-header.png');
+        background-repeat: no-repeat;
+        background-position: top right;
+        width: 350px;
+        height: 288px;
+        margin: 0 auto;
+    }
 }
 
 .section-header {
@@ -37,4 +48,22 @@ header .header-image {
 
 .jumbotron img {
     height: 150px;
+}
+
+footer {
+    font-size: 80%;
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid #ccc;
+}
+
+footer strong {
+    font-variant: small-caps;
+    color: #888;
+}
+
+footer .bottom {
+    background-color: #eee;
+    text-align: center;
+    padding: 1em;
 }
